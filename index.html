@@ -190,6 +190,24 @@
               $( ".inner-switch" ).text( "ON" );
             }
         });
+        $( ".inner-switch" ).on("click", function() {
+            if( $( "h1" ).hasClass( "dark1" )) {
+              $( "h1" ).removeClass( "dark1" );
+              $( ".inner-switch" ).text( "OFF" );
+            } else {
+              $( "h1" ).addClass( "dark1" );
+              $( ".inner-switch" ).text( "ON" );
+            }
+        });
+        $( ".inner-switch" ).on("click", function() {
+            if( $( "h3" ).hasClass( "dark1" )) {
+              $( "h3" ).removeClass( "dark1" );
+              $( ".inner-switch" ).text( "OFF" );
+            } else {
+              $( "h3" ).addClass( "dark1" );
+              $( ".inner-switch" ).text( "ON" );
+            }
+        });
         document.addEventListener('scroll', evt => {
             console.log(evt)
             if(evt.target.scrollingElement.scrollTop>= 67){

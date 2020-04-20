@@ -464,9 +464,6 @@ form.example::after {
         display: block;
         background-size: cover;
     }
-    .img_intro img{
-        box-shadow: 15px 15px 5px #726f6f ;
-    }
     .text{
         font-size: 1.6rem;
     }
@@ -1061,6 +1058,9 @@ i{
 .dark * {
     background-color: #000000;
     color: #e6e6e6;
+}
+.dark1{
+    background-color: transparent;
 }
 .inner-switch {
     display: inline-block;
